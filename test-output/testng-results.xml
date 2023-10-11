@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="6" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[<H4>Repro steps--</H4><br>null<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=C:\Users\PoonamRanade\eclipse-workspace\SeleniumAutomationFramework\test-output\Screenshot\payment08_Jan_2020__07_22_33PM.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<H4>Repro steps--</H4><br>null<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=C:\Users\PoonamRanade\eclipse-workspace\SeleniumAutomationFramework\test-output\Screenshot\payment08_Jan_2020__07_22_34PM.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<H4>Repro steps--</H4><br>null<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=C:\Users\PoonamRanade\eclipse-workspace\SeleniumAutomationFramework\test-output\Screenshot\payment08_Jan_2020__07_22_42PM.png>Screenshot</a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="107700" started-at="2020-01-08T13:50:55Z" finished-at="2020-01-08T13:52:43Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="107700" started-at="2020-01-08T13:50:55Z" finished-at="2020-01-08T13:52:43Z">
+      <class name="com.flipkart.testcases.CheckOutPageTest">
+        <test-method status="PASS" signature="Checking_OutFromCart(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.testcases.CheckOutPageTest@6156496]" name="Checking_OutFromCart" duration-ms="15189" started-at="2020-01-08T19:21:58Z" data-provider="checkOutUserDetails" finished-at="2020-01-08T19:22:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9464478253]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[122001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Gurgaon]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[H.no:1238/71,Gurgaon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checking_OutFromCart -->
+      </class> <!-- com.flipkart.testcases.CheckOutPageTest -->
+      <class name="com.flipkart.testcases.SearchPageTest">
+        <test-method status="PASS" signature="Search_Product(java.lang.String)[pri:0, instance:com.flipkart.testcases.SearchPageTest@2aa5fe93]" name="Search_Product" duration-ms="1362" started-at="2020-01-08T19:21:17Z" finished-at="2020-01-08T19:21:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung A50 Mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Product -->
+      </class> <!-- com.flipkart.testcases.SearchPageTest -->
+      <class name="com.flipkart.testcases.LoginPageTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.testcases.LoginPageTest@3b2cf7ab]" name="openBrowser" is-config="true" duration-ms="18260" started-at="2020-01-08T19:20:55Z" finished-at="2020-01-08T19:21:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="signIn_validCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.testcases.LoginPageTest@3b2cf7ab]" name="signIn_validCredentials" duration-ms="3743" started-at="2020-01-08T19:21:14Z" description="1. Type valid credentials&lt;br&gt; 2. Click on login button" data-provider="validCredentialsProvider" finished-at="2020-01-08T19:21:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9464478253]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn_validCredentials -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.flipkart.testcases.LoginPageTest@3b2cf7ab]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-01-08T19:21:17Z" finished-at="2020-01-08T19:21:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.flipkart.testcases.LoginPageTest -->
+      <class name="com.flipkart.testcases.AddToCartPageTest">
+        <test-method status="PASS" signature="Adding_ToCart()[pri:0, instance:com.flipkart.testcases.AddToCartPageTest@5c1a8622]" name="Adding_ToCart" duration-ms="32526" started-at="2020-01-08T19:21:19Z" finished-at="2020-01-08T19:21:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adding_ToCart -->
+      </class> <!-- com.flipkart.testcases.AddToCartPageTest -->
+      <class name="com.flipkart.testcases.RemoveFromCartPageTest">
+        <test-method status="PASS" signature="Removing_FromCart()[pri:0, instance:com.flipkart.testcases.RemoveFromCartPageTest@5ad851c9]" name="Removing_FromCart" duration-ms="6524" started-at="2020-01-08T19:21:51Z" finished-at="2020-01-08T19:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Removing_FromCart -->
+      </class> <!-- com.flipkart.testcases.RemoveFromCartPageTest -->
+      <class name="com.flipkart.testcases.PaymentTest">
+        <test-method status="FAIL" signature="payment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.testcases.PaymentTest@3c153a1]" name="payment" duration-ms="19875" started-at="2020-01-08T19:22:14Z" data-provider="cardNumberVerification" finished-at="2020-01-08T19:22:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5196081888500645]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[02]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//butto[contains(text(),'PAY')]"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'MSDT140', ip: '10.20.1.238', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\POONAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56449}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 159eeb424ffa98c1f714f3843fdd2d91
+*** Element info: {Using=xpath, value=//butto[contains(text(),'PAY')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//butto[contains(text(),'PAY')]"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'MSDT140', ip: '10.20.1.238', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\POONAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56449}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 159eeb424ffa98c1f714f3843fdd2d91
+*** Element info: {Using=xpath, value=//butto[contains(text(),'PAY')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.flipkart.core.ActionDriver.click(ActionDriver.java:22)
+	at com.flipkart.pageobject.PaymentPage.payments(PaymentPage.java:34)
+	at com.flipkart.testcases.PaymentTest.payment(PaymentTest.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<H4>Repro steps--</H4><br>null<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=C:\Users\PoonamRanade\eclipse-workspace\SeleniumAutomationFramework\test-output\Screenshot\payment08_Jan_2020__07_22_33PM.png>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<H4>Repro steps--</H4><br>null<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=C:\Users\PoonamRanade\eclipse-workspace\SeleniumAutomationFramework\test-output\Screenshot\payment08_Jan_2020__07_22_34PM.png>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<H4>Repro steps--</H4><br>null<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=C:\Users\PoonamRanade\eclipse-workspace\SeleniumAutomationFramework\test-output\Screenshot\payment08_Jan_2020__07_22_42PM.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- payment -->
+      </class> <!-- com.flipkart.testcases.PaymentTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

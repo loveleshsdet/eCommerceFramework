@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+    <listener class-name="com.flipkart.screenshot.ScreenShotOnFailure" />
+     <listener class-name="com.flipkart.bugreporting.BugReporting"></listener>   
+   <listener class-name="com.flipkart.utility.ExtentReporterNG" />
+  </listeners>
+  <test thread-count="5" name="Test">
+  
+   <parameter name="browser" value="chrome"></parameter>
+   <parameter name="baseURL" value="https://www.flipkart.com/"></parameter>
+   <parameter name="excelLoc" value="\\resource\\Data.xls"></parameter>
+   <parameter name="sheetName" value="Flipkart_Login"></parameter>   
+   <parameter name="searchKey" value="Samsung A50 Mobile"></parameter>
+ 
+   <parameter name="uname" value="manojkumar"></parameter>
+   <parameter name="pass" value="Test@123"></parameter>
+   <parameter name="cata" value="tools"></parameter>
+   <parameter name="data" value="adding to cart failed"></parameter>
+   <parameter name="data1" value="the test case has been failed due to out of bound exception"></parameter>
+    <classes>
+      <class name="com.flipkart.testcases.LoginPageTest">
+       <methods>     
+		<include name="signIn_validCredentials"></include>		 
+     </methods>
+     </class>
+     <class name="com.flipkart.testcases.SearchPageTest">    
+    	<methods>
+			<include name="Search_Product"></include>
+    	</methods>
+      </class>	
+	<class name="com.flipkart.testcases.AddToCartPageTest">
+    	<methods>
+			<include name="Adding_ToCart"></include>
+    	</methods>
+    </class>	
+	 <class name="com.flipkart.testcases.RemoveFromCartPageTest">
+     	<methods>
+     		<include name="Removing_FromCart"></include>
+     	</methods>
+     </class>
+      <class name="com.flipkart.testcases.CheckOutPageTest">
+     	<methods>
+     		<include name="Checking_OutFromCart"></include>
+     </methods>     
+     </class>
+     <class name="com.flipkart.testcases.PaymentTest">
+     <methods>
+     	<include name="payment"></include>
+     </methods>
+     </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

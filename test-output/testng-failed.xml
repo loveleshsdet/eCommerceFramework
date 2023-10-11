@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="baseURL" value="https://www.flipkart.com/"/>
+  <parameter name="sheetName" value="Flipkart_Login"/>
+  <parameter name="uname" value="manojkumar"/>
+  <parameter name="data" value="adding to cart failed"/>
+  <parameter name="pass" value="Test@123"/>
+  <parameter name="cata" value="tools"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="data1" value="the test case has been failed due to out of bound exception"/>
+  <parameter name="excelLoc" value="\\resource\\Data.xls"/>
+  <parameter name="searchKey" value="Samsung A50 Mobile"/>
+  <listeners>
+    <listener class-name="com.flipkart.screenshot.ScreenShotOnFailure"/>
+    <listener class-name="com.flipkart.bugreporting.BugReporting"/>
+    <listener class-name="com.flipkart.utility.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <parameter name="baseURL" value="https://www.flipkart.com/"/>
+    <parameter name="sheetName" value="Flipkart_Login"/>
+    <parameter name="uname" value="manojkumar"/>
+    <parameter name="data" value="adding to cart failed"/>
+    <parameter name="pass" value="Test@123"/>
+    <parameter name="cata" value="tools"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="data1" value="the test case has been failed due to out of bound exception"/>
+    <parameter name="excelLoc" value="\\resource\\Data.xls"/>
+    <parameter name="searchKey" value="Samsung A50 Mobile"/>
+    <classes>
+      <class name="com.flipkart.testcases.LoginPageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.flipkart.testcases.LoginPageTest -->
+      <class name="com.flipkart.testcases.PaymentTest">
+        <methods>
+          <include name="payment" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.flipkart.testcases.PaymentTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
